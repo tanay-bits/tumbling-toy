@@ -9,7 +9,7 @@ This was my final project for [Dr. Todd Murphey](http://www.mccormick.northweste
 
 This multibody system has been of special interest to researchers due to its complex dynamical behaviour. The tumbling motion is characterized by the alternating rotation of the case around one of the two pivots with the rolling of the ball from end to end of the case. The system has 4 degrees of freedom, which are the configuration variables of the simulation: q = [xRC,  yRC,  θ,  xCB]<sup>T</sup> , where xRC and yRC are the tangential and normal displacement of the CoM of the case relative to the rail, and θ is the rotation of the of the case with respect to the rail. xCB is the displacement of the ball within the body. Below is a short animation of the simulation:   
 
-<div style="max-width: 500px;" id="_giphy_26tPqPdmsbbc7zRxm"></div><script>var _giphy = _giphy || []; _giphy.push({id: "26tPqPdmsbbc7zRxm",w: 624, h: 421});var g = document.createElement("script"); g.type = "text/javascript"; g.async = true;g.src = ("https:" == document.location.protocol ? "https://" : "http://") + "giphy.com/static/js/widgets/embed.js";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);</script>
+![Animation](https://media.giphy.com/media/26tPqPdmsbbc7zRxm/giphy.gif)
 
 Following impacts govern the motion of the system:   
 
